@@ -4,6 +4,7 @@ A mini javascript weather web application which display **realtime temperature**
 # Features
 - Raltime temperature and min-max temperature with weather condition 
 - Display other miscelleanuos weather details such as real feal, humidity, sunset and sunrise time
+- Change **background image** according to weather condition using Unsplash Api
 
 
 # Tech stack used 
