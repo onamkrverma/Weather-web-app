@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="row" id="searchBox">
+                <form action="">
+                    <input type="search" name="searchBox" id="search" placeholder="search with city name"
+                        autocomplete="off">
+                    <!-- <input type="submit" value="🔍" id="submitBtn"> -->
+                </form>
+                <div class="errorMessage"></div>
+            </div>
+            <div class="row">
+                <h2 id="city">Loading...</h2>
+            </div>
+            <div class="row row3">
+                <div class="icon">
+                    <img id="icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+                </div>
+                <div id="temp"></div>
+
+            </div>
+            <div class="minMaxTemp">
+                <p>Min Temp:</p><span id="minTemp"> </span>
+                <p>Max Temp:</p><span id="maxTemp"> </span>
+            </div>
+
+            <div id="condition"></div>
+        </div>
+
+
+        <!-- box for show addition informations -->
+
+        <div class="box2">
+            <div class="column1">
+                <div class="realFeel m-10">
+                    <h4>Real Feal</h4>
+                    <p id="realFeal"></p>
+                </div>
+                <div class="sunRise m-10">
+                    <h4>SunRise</h4>
+                    <p id="sunRise"></p>
+                </div>
+                
+            </div>
+            <div class="column2">
+                <div class="humidity m-10">
+                    <h4>Humidity</h4>
+                    <p id="humidity"></p>
+                </div>
+                <div class="sunSet m-10">
+                    <h4>SunSet</h4>
+                    <p id="sunSet"></p>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
